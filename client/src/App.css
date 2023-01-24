@@ -1,0 +1,93 @@
+
+
+.App {
+  text-align: center;
+  background: linear-gradient(to right, skyblue, cadetblue, rgba(65, 105, 225, 0.545), cadetblue, skyblue);
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.pageTitleButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 10% 0% 10%;
+  margin: 30px 0px;
+}
+.metlogo {
+  width: 100px;
+  height: 100px;
+  align-items: left;
+  display: flex;
+  margin: 20px;
+}
+.timePeriod{
+  margin-bottom: 30px;
+}
+.artRegion{
+  margin-bottom: 30px;
+}
+.artData{
+  flex: 2;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.allArtData {
+  display: flex;
+}
+
+#primaryImage{
+  width: 50%;
+  max-width: 400px;
+  min-width: 200px;
+  height: 50%;
+  max-height: 400px;
+  min-height: 200px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px 2px gray;
+}
+
+#critique-header{
+  font-size: 25px;
+  text-shadow: 1px 1px 3px gray;
+}
+
+.button-spacer{
+  display: flex;
+  gap: 2%;
+}
+
+.artgen-map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.opinion-map{
+  display: flex;
+  width: 100%;
+}
+
+#identify-button{
+  font-style: italic;
+  background-image: linear-gradient(to right, silver, whitesmoke, silver);
+  border: 0.5px black;
+  border-radius: 3px;
+}
+
+#identify-button:hover{
+  font-style: italic;
+  background-image: linear-gradient(to right, whitesmoke, rgba(192, 192, 192, 0.5), whitesmoke);
+  transition: 500ms;
+}
+
+.welcomeSign {
+  margin-left: 30px
+}
+
+.title-link{
+  text-align: center;
+  margin-top: 12px;
+}
